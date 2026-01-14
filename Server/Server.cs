@@ -14,7 +14,7 @@ using SPTarkov.Server.Core.Models.Utils;
 [assembly: AssemblyTitle("Raid Overhaul Server")]
 [assembly: AssemblyDescription("A large overhaul for raids including events, dead body clean up, and much more. Server component.")]
 [assembly: AssemblyCopyright("Copyright © 2025 nameless")]
-[assembly: AssemblyFileVersion("3.0.0")]
+[assembly: AssemblyFileVersion("3.0.1")]
 
 namespace RaidOverhaulMain;
 
@@ -24,7 +24,7 @@ public sealed record ModMetadata : AbstractModMetadata
     public override string Name { get; init; } = "Raid Overhaul Server";
     public override string Author { get; init; } = "nameless";
     public override List<string>? Contributors { get; init; }
-    public override SemanticVersioning.Version Version { get; init; } = new("3.0.0");
+    public override SemanticVersioning.Version Version { get; init; } = new("3.0.1");
     public override SemanticVersioning.Range SptVersion { get; init; } = new("~4.0.0");
     public override List<string>? Incompatibilities { get; init; }
     public override Dictionary<string, SemanticVersioning.Range>? ModDependencies { get; init; }
